@@ -48,7 +48,7 @@ import {
       },
       {
         Icon: BellIcon,
-        name: "Notifications",
+        name: "Notifications ",
         description:
           "Get notified when someone shares a file or mentions you in a comment.",
         href: "/",
