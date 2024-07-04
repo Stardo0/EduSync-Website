@@ -106,17 +106,10 @@ export function SiteHeader() {
           </Link>
 
           <div className="ml-auto flex h-full items-center">
-            <Link className="mr-6 text-sm" href="">
-              Join Waitlist
+            <Link className="mr-6 text-sm" href="https://getwaitlist.com/waitlist/18409">
+              Waitlist
             </Link>
           </div>
-          <button
-            className="ml-6 md:hidden"
-            onClick={() => setHamburgerMenuIsOpen((open) => !open)}
-          >
-            <span className="sr-only">Toggle menu</span>
-            {hamburgerMenuIsOpen ? <XIcon /> : <AlignJustify />}
-          </button>
         </div>
       </header>
       <AnimatePresence>
@@ -134,7 +127,7 @@ export function SiteHeader() {
         >
           <div className="container flex h-[3.5rem] items-center justify-between">
             <Link className="text-md flex items-center" href="/">
-              Magic UI
+              EduSync
             </Link>
 
             <button

@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRightIcon } from "@radix-ui/react-icons";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
+import Link from "next/link";
 
 export default function HeroSection() {
   const ref = useRef(null);
@@ -29,8 +30,10 @@ export default function HeroSection() {
         With a focus on simplicity and ease of use, EduSync grants you access to
         <br className="hidden md:block" /> a Planner, Toutors, Quizzes and more...
       </p>
-      <Button className="translate-y-[-1rem] animate-fade-in gap-1 rounded-lg text-white dark:text-black opacity-0 ease-in-out [--animation-delay:600ms]">
-        <span>Join Waitlist </span>
+      <Button className="translate-y-[-1rem] animate-fade-in gap-1 rounded-lg text-white dark:text-black opacity-0 ease-in-out [--animation-delay:600ms]" >
+        <Link href="https://getwaitlist.com/waitlist/18409">
+          <span >Join Waitlist </span>
+        </Link>
         <ArrowRightIcon className="ml-1 size-4 transition-transform duration-300 ease-in-out group-hover:translate-x-1" />
       </Button>
       <div
