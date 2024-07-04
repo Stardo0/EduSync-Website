@@ -4,6 +4,7 @@ import {
       FileTextIcon,
       GlobeIcon,
       InputIcon,
+      PersonIcon,
     } from "@radix-ui/react-icons";
     
     import '../main.css'
@@ -47,10 +48,10 @@ import {
         className: "lg:col-start-3 lg:col-end-3 lg:row-start-1 lg:row-end-2",
       },
       {
-        Icon: BellIcon,
-        name: "Notifications ",
+        Icon: PersonIcon,
+        name: "Tutors ",
         description:
-          "Get notified when someone shares a file or mentions you in a comment.",
+          "If you need help, you can always book a tutor for a session.",
         href: "/",
         cta: "Learn more",
         background: <img className="absolute -right-20 -top-20 opacity-60" />,

@@ -28,7 +28,7 @@ export default function HeroSection() {
       </h1>
       <p className="mb-12 text-lg tracking-tight text-gray-400 md:text-xl text-balance translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:400ms]">
         With a focus on simplicity and ease of use, EduSync grants you access to
-        <br className="hidden md:block" /> a Planner, Toutors, Quizzes and more...
+        <br className="hidden md:block" /> a Planner, Tutors, Quizzes and more...
       </p>
       <Button className="translate-y-[-1rem] animate-fade-in gap-1 rounded-lg text-white dark:text-black opacity-0 ease-in-out [--animation-delay:600ms]" >
         <Link href="https://getwaitlist.com/waitlist/18409">
